@@ -4,182 +4,182 @@ Author URI : http://www.markups.io/
 ========================================*/
 
 .header-content h2 span {
-  color: #d4bc7a;
+  color: #935347;
 }
 .knowmore-btn:hover,
 .knowmore-btn:focus,
 .download-btn:hover,
 .download-btn:focus{
-  background-color: #d4bc7a;
-  border-color: #d4bc7a;
+  background-color: #935347;
+  border-color: #935347;
 }
 .main-nav li a:hover{
-  color: #d4bc7a;
+  color: #935347;
 } 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #d4bc7a;
+  color: #935347;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #d4bc7a;
+  color: #935347;
 }
 .search-area input[type="text"]:focus:hover {
-  border-bottom: 1px solid #d4bc7a;  
+  border-bottom: 1px solid #935347;  
 }
 .search-area input[type="text"]:focus {
-  border-bottom: 1px solid #d4bc7a;  
+  border-bottom: 1px solid #935347;  
 }
 .search-area input[type="submit"] {
-  background-color: #d4bc7a;  
+  background-color: #935347;  
 }
 .tittle>span{
-  color: #d4bc7a;
+  color: #935347;
 }
 .tittle2>span{
-  color: #d4bc7a;
+  color: #935347;
 }
 .tittle-timeline>span{
-  color: #d4bc7a;
+  color: #935347;
 }
 .single-wc-content span {
-  border: 1px solid #d4bc7a;
-  color: #d4bc7a;
+  border: 1px solid #935347;
+  color: #935347;
 }
 .single-wc-content:hover .wc-icon{
-  background-color: #d4bc7a;
+  background-color: #935347;
 }
 .single-wc-content:hover .wc-tittle{
-  border-bottom: 2px solid #d4bc7a;  
+  border-bottom: 2px solid #935347;  
 }
 .about-left {
-  background-color: #d4bc7a;  
+  background-color: #935347;  
 }
 .button-default {  
-  border: 2px solid #d4bc7a !important;
-  color: #d4bc7a !important;
+  border: 2px solid #935347 !important;
+  color: #935347 !important;
 }
 .button-default:hover {
-  border-color: #d4bc7a;
+  border-color: #935347;
 }
 .button-default:hover,
 .button-default:focus {
-  border-color: #d4bc7a;
-  background-color: #d4bc7a !important;  
+  border-color: #935347;
+  background-color: #935347 !important;  
 }
 .introduction-btn {
-  background-color: rgba(212, 188, 122, 0.48);
+  background-color: rgba(147, 83, 71, 0.73);
 }
 .team-info {
-  background: rgba(212, 188, 122, 0.48);
+  background: rgba(147, 83, 71, 0.73);
 }  
 .team-grid li:hover .team-address p {
-  color: #d4bc7a;
+  color: #935347;
 }
 .single-service {
-  border-bottom: 5px solid #d4bc7a;
+  border-bottom: 5px solid #935347;
 }
 .single-service:hover:after{  
-  background-color: #d4bc7a;
+  background-color: #935347;
 }
 .single-service:hover .service-icon{
-  color: #d4bc7a;
+  color: #935347;
 }
 .single-service:hover .service-title{
-  color: #d4bc7a;
+  color: #935347;
 }
 .single-counter > span {
-  color: #d4bc7a;
+  color: #935347;
 }
 .single-price .price-header {
-  background-color: #d4bc7a;
+  background-color: #935347;
  }
  .single-price .price-header::after {
-  color: #d4bc7a;  
+  color: #935347;  
 }
 .single-price .price-amount {
-  border-bottom: 1px solid #d4bc7a;
-  color: #d4bc7a;  
+  border-bottom: 1px solid #935347;
+  color: #935347;  
 }
 .single-price a {
-  border-bottom: 1px solid #d4bc7a;
+  border-bottom: 1px solid #935347;
 }
 .standard-price a{
-  background-color: #d4bc7a;  
+  background-color: #935347;  
 }
 .single-from-blog .blog-title h2 a:hover,
 .single-from-blog .blog-title h2 a:focus{
-  color: #d4bc7a; 
+  color: #935347; 
 }
 .single-from-blog .blog-title .blog-admin{
-  color: #d4bc7a;
+  color: #935347;
 }
 .single-from-blog .blog-footer a:hover,
 .single-from-blog .blog-footer a:focus { 
-  color: #d4bc7a;
+  color: #935347;
 }
 .contact-form .form-control:focus {
-  border-color: #d4bc7a;   
+  border-color: #935347;   
 } 
 .portfolio-menu ul li:hover{
-  color: #d4bc7a;
-  border-color: #d4bc7a;  
+  color: #935347;
+  border-color: #935347;  
 }
 .portfolio-social-icon a {
-  background-color: #d4bc7a;
+  background-color: #935347;
 }
 .portfolio-title {
-  background-color: #d4bc7a;
+  background-color: #935347;
 }
 .blog-banner-area .breadcrumb li.active{
-  color: #d4bc7a;
+  color: #935347;
 }
 .blog-pagination > li > a:hover,
 .blog-pagination > li > span:hover,
 .blog-pagination > li > a:focus,
 .blog-pagination > li > span:focus{
-  background-color: #d4bc7a;  
-  border-color:#d4bc7a;  
+  background-color: #935347;  
+  border-color:#935347;  
 }
 .single-widget h2 {
-  border-left: 3px solid #d4bc7a;  
+  border-left: 3px solid #935347;  
 }
 .popular-post-widget .media-heading a:hover,
 .popular-post-widget .media-heading a:focus{
-  color: #d4bc7a;  
+  color: #935347;  
 }
 .instagram-feed .slick-prev::before,
 .instagram-feed .slick-next::before {
-  color: #d4bc7a;  
+  color: #935347;  
 }
 .instagram-feed .slick-dots li.slick-active button{
-  background-color: #d4bc7a;
+  background-color: #935347;
 }
 .instagram-feed .slick-dots li.slick-active button::before{
-  color: #d4bc7a;
+  color: #935347;
 }
 .comment-form .form-control:focus {
-  border-color: #d4bc7a;   
+  border-color: #935347;   
 } 
 .error-no {
-  border: 2px solid #d4bc7a;  
+  border: 2px solid #935347;  
 }
 .error-no p {
-  color: #d4bc7a;
+  color: #935347;
 }
 .blog-details-content>a:hover{
-  color: #d4bc7a;
+  color: #935347;
 }
 .scrollToTop {  
-  color: #d4bc7a;  
+  color: #935347;  
 }
 .scrollToTop:hover,
 .scrollToTop:focus{  
-  background-color: #d4bc7a; 
+  background-color: #935347; 
 }
 .loader {  
-  background: #d4bc7a;
+  background: #935347;
   background: -moz-linear-gradient(left, #d4bc7a 10%, rgba(255, 255, 255, 0) 42%);
   background: -webkit-linear-gradient(left, #d4bc7a 10%, rgba(255, 255, 255, 0) 42%);
   background: -o-linear-gradient(left, #d4bc7a 10%, rgba(255, 255, 255, 0) 42%);
@@ -187,21 +187,21 @@ Author URI : http://www.markups.io/
   background: linear-gradient(to right, #d4bc7a 10%, rgba(255, 255, 255, 0) 42%);  
 }
 .loader:before {
-  background: #d4bc7a; 
+  background: #935347; 
 }
 .footer-bottom p a{
-  color: #d4bc7a;
+  color: #935347;
 }
 .blog-pagination > li > a,
 .blog-pagination > li > span {
-  color: #d4bc7a; 
+  color: #935347; 
 }
 .blog-pagination > li > a:hover,
 .blog-pagination > li > span:hover,
 .blog-pagination > li > a:focus,
 .blog-pagination > li > span:focus{
-  background-color: #d4bc7a;  
-  border-color:#d4bc7a;
+  background-color: #935347;  
+  border-color:#935347;
 }
 
 /*=======================================
