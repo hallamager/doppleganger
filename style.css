@@ -3121,7 +3121,7 @@ img{
   top: 16px;
   left: 50%;
   margin-left: -25px;
-  background-color: #999999;
+  background-color: #c7ad88;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -3156,7 +3156,7 @@ img{
 }
 
 .timeline-badge.warning {
-  background-color: #f0ad4e !important;
+  background-color: #935347 !important;
 }
 
 .timeline-badge.danger {
