@@ -180,11 +180,11 @@ Author URI : http://www.markups.io/
 }
 .loader {  
   background: #935347;
-  background: -moz-linear-gradient(left, #d4bc7a 10%, rgba(255, 255, 255, 0) 42%);
-  background: -webkit-linear-gradient(left, #d4bc7a 10%, rgba(255, 255, 255, 0) 42%);
-  background: -o-linear-gradient(left, #d4bc7a 10%, rgba(255, 255, 255, 0) 42%);
-  background: -ms-linear-gradient(left, #d4bc7a 10%, rgba(255, 255, 255, 0) 42%);
-  background: linear-gradient(to right, #d4bc7a 10%, rgba(255, 255, 255, 0) 42%);  
+  background: -moz-linear-gradient(left, #935347 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #935347 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #935347 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #935347 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #935347 10%, rgba(255, 255, 255, 0) 42%);  
 }
 .loader:before {
   background: #935347; 

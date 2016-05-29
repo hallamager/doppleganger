@@ -714,6 +714,13 @@ img{
 .team-area {
 	display: inline;
 	float: left;
+	padding-bottom: 80px;
+	width: 100%;
+}
+
+.team-area1 {
+	display: inline;
+	float: left;
 	padding-bottom: 56px;
 	width: 100%;
 }
@@ -755,19 +762,30 @@ img{
 }
 
 .team-img-1 { 
-	background-image: url(assets/images/team-member1.png);
+	background-image: url(assets/images/john.png);
 }
 
 .team-img-2 { 
-	background-image: url(assets/images/mendes.jpg);
+	background-image: url(assets/images/ted.png);
 }
 
 .team-img-3 { 
-	background-image: url(assets/images/team-member3.png);
+	background-image: url(assets/images/richard-emmott.jpeg);
 }
 .team-img-4 { 
-	background-image: url(assets/images/team-member4.png);
+	background-image: url(assets/images/charmaine.png);
 }
+
+.team-img-5 { 
+	background-image: url(assets/images/simon.png);
+}
+
+.team-img-6 { 
+	background-image: url(assets/images/roger.png);
+}
+
+
+
 .team-info {
 	position: absolute;
 	width: inherit;
@@ -3162,4 +3180,78 @@ img{
 
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+/*--------------------
+6. Modal
+--------------------*/
+
+.modal-content {
+	border-radius: 0;	
+}
+.modal-header .close {
+	font-size: 30px;	
+}
+.modal-title {    
+	text-transform: uppercase;
+	font-size: 23px;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.modal-body p {
+	margin: 30px 20px;
+	color: #2D2D2D;
+    text-align: justify;
+}
+
+.modal-works {
+font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    margin: 25px 20px;
+}
+
+.modal-works span {
+	background-color: #935347;
+    margin-right: 15px;
+    padding: 5px 10px;
+}
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+/*  border-color: #ccc;*/
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: #935347;
+  border-color: #935347;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
 }
