@@ -721,7 +721,7 @@ img{
 .team-area1 {
 	display: inline;
 	float: left;
-	padding-bottom: 56px;
+	padding-bottom: 75px;
 	width: 100%;
 }
 .team-content {
@@ -731,12 +731,13 @@ img{
 	width: 100%;
 }
 .team-grid {
-	margin: 20px 0 0 0;
 	padding: 0;
 	list-style: none;
 	display: block;
 	text-align: center;
 	width: 100%;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 .team-grid li {
 	display: inline-block;
@@ -782,6 +783,35 @@ img{
 
 .team-img-6 { 
 	background-image: url(assets/images/roger.png);
+}
+
+.team-img-stefy { 
+	background-image: url(assets/images/stefy1.jpg);
+    width: 100%;
+}
+
+.team-img-alex { 
+	background-image: url(assets/images/alex1.jpg);
+    width: 100%;
+}
+
+.team-img-sarah { 
+	background-image: url(assets/images/sarah1.jpg);
+    width: 100%;
+}
+.team-img-stefano { 
+	background-image: url(assets/images/stefano.jpg);
+    width: 100%;
+}
+
+.team-img-alissa { 
+	background-image: url(assets/images/allisa1.jpg);
+    width: 100%;
+}
+
+.team-img-william { 
+	background-image: url(assets/images/william1.jpg);
+    width: 100%;
 }
 
 
