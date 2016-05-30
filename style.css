@@ -3105,6 +3105,7 @@ img{
 }
 
 .timeline > li > .timeline-panel {
+  background-color: #fff;
   width: 46%;
   float: left;
   border: 1px solid #d4d4d4;
