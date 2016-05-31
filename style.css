@@ -236,9 +236,9 @@ img{
 	margin: 0px 15px;
 }
 .knowmore-btn{
-	border: 2px solid rgba(255, 255, 255, 0.74);;
+	border: 2px solid #935347;
 	border-radius: 50%;
-	color: rgba(255, 255, 255, 0.74);;	
+	color: #935347;	
 	font-size: 20px;	
 	font-weight: bold;
 	text-transform: uppercase;
@@ -3398,4 +3398,10 @@ font-size: 11px;
   border: 1px solid #935347;
   border-radius: 0px;
   color: #935347;
+}
+
+video {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 100%;
 }
