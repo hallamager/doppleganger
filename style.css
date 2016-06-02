@@ -436,7 +436,8 @@ img{
 	background-color: #fff;
 	float: left;
 	display: inline;
-	width: 100%;	
+	width: 100%;
+    padding-top: 100px;
 }
 
 #blog-content{
@@ -941,7 +942,7 @@ img{
 /* SERVICE */
 /*--------------------*/
 
-#service{
+#submissions{
 	background-color: #F6F6F6;
 	float: left;
 	display: inline;
@@ -1569,7 +1570,7 @@ img{
 /* CLIENT */
 /*--------------------*/
 
-#client {
+#supportUs {
 	background-color: #fff;
 	display: inline;
 	float: left;
