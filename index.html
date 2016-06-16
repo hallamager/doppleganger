@@ -81,9 +81,12 @@
     <div class="header-inner">
       <!-- Header image -->
         <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+<!--
         <video autoplay loop id="video-background">
-          <source src="/doppleganger/assets/videos/DoppelgangerProductionsGroup.mp4" type="video/mp4">
+          <source src="assets/videos/DoppelgangerProductionsGroup.mp4" type="video/mp4">
         </video>      
+-->
+        <img src="assets/images/HAP%20poster.png" alt="img01" class="img-responsive" />
         <div class="header-overlay">
         <div class="header-content">
         <!-- Start header content slider -->
@@ -129,7 +132,6 @@
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="#portfolio">WORK</a></li>
             <li><a href="blog.html">BLOG</a></li>
-            <li><a href="#news">NEWS</a></li>  
             <li><a href="#submissions">SUBMISSIONS</a></li>
             <li><a href="#team">TEAM</a></li>
             <li><a href="#supportUs">SUPPORT US</a></li>  
@@ -190,7 +192,7 @@
               <div class="col-md-5 col-sm-6 col-xs-12">
                 <div class="about-left wow fadeInLeft">
                   <img src="assets/images/template.jpg" alt="img" style="
-    height: 420px;
+    height: 100%;
 ">
                 </div>
               </div>
@@ -230,29 +232,17 @@
                <div class="portfolio-menu">
                  <ul>
                    <li class="filter" data-filter="all">All</li>
+                   <li class="filter" data-filter=".hap">HAP</li>
                    <li class="filter" data-filter=".shot-at-dawn">Shot At Dawn</li>
                    <li class="filter" data-filter=".coming-soon">Coming Soon</li>
                    <li class="filter" data-filter=".young-critics">Young Critics</li>
-                   <li class="filter" data-filter=".hap">HAP</li>
+                   <li class="filter" data-filter=".plays">PLAYS</li>
+                   <li class="filter" data-filter=".other">OTHER</li>     
                  </ul>
                </div>
                <!-- Portfolio container -->
                <div id="mixit-container" class="portfolio-container">
-                 <div class="single-portfolio mix shot-at-dawn">
-                   <div class="single-item">
-                     <img src="assets/images/SADposter.jpg" alt="img">
-                     <div class="single-item-content">
-                        <div class="portfolio-social-icon">
-                          <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-shot-at-dawn" class="fancybox"><i class="fa fa-search-plus"></i></a>
-                        </div>
-                        <div class="portfolio-title">
-                          <h4>SHOT AT DAWN</h4>
-                          <span>WW1 Period Drama</span>
-                        </div>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="single-portfolio mix coming-soon hap">
+                   <div class="single-portfolio mix coming-soon hap plays">
                    <div class="single-item">
                      <img src="assets/images/HAP%20poster.png" alt="img">
                      <div class="single-item-content">
@@ -262,6 +252,20 @@
                         <div class="portfolio-title">
                           <h4>HAP</h4>
                           <span>A COMEDY ABOUT HAPPINESS</span>
+                        </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="single-portfolio mix shot-at-dawn plays">
+                   <div class="single-item">
+                     <img src="assets/images/SADposter.jpg" alt="img">
+                     <div class="single-item-content">
+                        <div class="portfolio-social-icon">
+                          <a target="_blank" href="#Modal-shot-at-dawn" data-toggle="modal" data-target="#Modal-shot-at-dawn" class="fancybox"><i class="fa fa-search-plus"></i></a>
+                        </div>
+                        <div class="portfolio-title">
+                          <h4>SHOT AT DAWN</h4>
+                          <span>WW1 Period Drama</span>
                         </div>
                      </div>
                    </div>
@@ -280,72 +284,72 @@
                      </div>
                    </div>
                  </div>
-                 <div class="single-portfolio mix photography">
+                 <div class="single-portfolio mix plays">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small4.jpg" alt="img">
+                     <img src="assets/images/doppelganger-live-logo-square.jpg" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
                           <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Work4" class="fancybox"><i class="fa fa-search-plus"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>NAME</h4>
-                          <span>Category</span>
+                          <h4>DOPLEGANGER LIVE</h4>
+                          <span>Five Go Killing</span>
                         </div>
                      </div>
                    </div>
                  </div>
-                 <div class="single-portfolio mix photography">
+                 <div class="single-portfolio mix plays">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small5.jpg" alt="img">
+                     <img src="assets/images/rampant%20bull.jpg" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
                           <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Work5" class="fancybox"><i class="fa fa-search-plus"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>NAME</h4>
-                          <span>Category</span>
+                          <h4>THE RAMPANT BULL AND THE PATHETIC PANDA</h4>
+                          <span>Reviews & Info</span>
                         </div>
                      </div>
                    </div>
                  </div>
-                 <div class="single-portfolio mix photography">
+                 <div class="single-portfolio mix plays">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small6.jpg" alt="img">
+                     <img src="assets/images/weevil.jpg" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
                           <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Work6" class="fancybox"><i class="fa fa-search-plus"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>NAMEn</h4>
-                          <span>Category</span>
+                          <h4>THE WEEVIL IN THE BISCUIT </h4>
+                          <span>Reviews & Info</span>
                         </div>
                      </div>
                    </div>
                  </div>
-                 <div class="single-portfolio mix photography">
+                 <div class="single-portfolio mix other">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small7.jpg" alt="img">
+                     <img src="assets/images/fundraiser-poster.jpg" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
                           <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Work7" class="fancybox"><i class="fa fa-search-plus"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>NAME</h4>
-                          <span>Category</span>
+                          <h4>DOPPLEGANGER NEEDS YOU</h4>
+                          <span>Fundraiser</span>
                         </div>
                      </div>
                    </div>
                  </div>
-                 <div class="single-portfolio mix photography">
+                 <div class="single-portfolio mix plays">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small2.jpg" alt="img">
+                     <img src="assets/images/dorian%20gray.jpg" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
                           <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Work8" class="fancybox"><i class="fa fa-search-plus"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>NAME</h4>
-                          <span>Category</span>
+                          <h4>DORIAN GRAY</h4>
+                          <span>Info</span>
                         </div>
                      </div>
                    </div>
@@ -377,9 +381,9 @@
                 <li>
                   <div class="team-item team-img-1 wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/jordan.hakkak?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/fostwrite"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-John"><span class="fa fa-info"></span></a>
-                      <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/john-foster-78334310"><span class="fa fa-linkedin"></span></a>
                     </div>
                   </div>
                   <div class="team-address">
@@ -390,7 +394,7 @@
                 <li>
                   <div class="team-item team-img-2 wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/alexslb33?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="#"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Ted"><span class="fa fa-info"></span></a>
                       <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
                     </div>
@@ -403,7 +407,7 @@
                 <li>
                   <div class="team-item team-img-3 wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/sam.taylor.5815?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/profile.php?id=100004556804870&pnref=friends.search"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Richard"><span class="fa fa-info"></span></a>
                       <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
                     </div>
@@ -428,9 +432,9 @@
                 <li>
                   <div class="team-item team-img-4 wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/jordan.hakkak?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/Charms.kay?pnref=friends.search"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Charmaine"><span class="fa fa-info"></span></a>
-                      <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/charmaine-k-parkin-9a9b3833"><span class="fa fa-linkedin"></span></a>
                     </div>
                   </div>
                   <div class="team-address">
@@ -441,9 +445,9 @@
                 <li>
                   <div class="team-item team-img-5 wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/alexslb33?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/nomoreofthisplease?pnref=friends.search"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Simon"><span class="fa fa-info"></span></a>
-                      <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/simon-jay-04a43026"><span class="fa fa-linkedin"></span></a>
                     </div>
                   </div>
                   <div class="team-address">
@@ -454,9 +458,9 @@
                 <li>
                   <div class="team-item team-img-6 wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/sam.taylor.5815?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/roger.emmott?pnref=friends.search"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Roger"><span class="fa fa-info"></span></a>
-                      <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/rogeremmott"><span class="fa fa-linkedin"></span></a>
                     </div>
                   </div>
                   <div class="team-address">
@@ -691,7 +695,7 @@
               
               Please send your work to <a href="mailto:doppelgangersubmissions@gmail.com">doppelgangersubmissions@gmail.com</a>
 
-        </div>
+          </div>
       </div>
     </li>
     <li class="timeline-inverted">
@@ -720,7 +724,7 @@ If we feel like your script would benefit from our development programme then we
       
 
   <!-- Start Young Critics Sections -->    
-<section id="client">
+<section id="team">
     <div class="container">
         <div class="title-area">
                 <h2 class="tittle">YOUNG <span>CRITICS</span></h2>
@@ -738,7 +742,7 @@ If we feel like your script would benefit from our development programme then we
                 <li>
                   <div class="team-item team-img-stefy wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/jordan.hakkak?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/profile.php?id=100006447559029&pnref=friends.search"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Stefy"><span class="fa fa-info"></span></a>
                       <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
                     </div>
@@ -750,7 +754,7 @@ If we feel like your script would benefit from our development programme then we
                 <li>
                   <div class="team-item team-img-alex wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/alexslb33?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/alex.schersmith?fref=ts"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Alex"><span class="fa fa-info"></span></a>
                       <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
                     </div>
@@ -762,9 +766,9 @@ If we feel like your script would benefit from our development programme then we
                 <li>
                   <div class="team-item team-img-sarah wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/sam.taylor.5815?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/sarah.lockwood.9843"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Sarah"><span class="fa fa-info"></span></a>
-                      <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/sarah-beth-lockwood-1b0520114"><span class="fa fa-linkedin"></span></a>
                     </div>
                   </div>
                   <div class="team-address">
@@ -786,9 +790,9 @@ If we feel like your script would benefit from our development programme then we
                 <li>
                   <div class="team-item team-img-stefano wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/jordan.hakkak?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/stefano.petroni.90?pnref=friends.search"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Stefano"><span class="fa fa-info"></span></a>
-                      <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/stefano-petroni-2b883b6a"><span class="fa fa-linkedin"></span></a>
                     </div>
                   </div>
                   <div class="team-address">
@@ -798,19 +802,19 @@ If we feel like your script would benefit from our development programme then we
                 <li>
                   <div class="team-item team-img-alissa wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/alexslb33?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="https://www.facebook.com/silk.spectre.12?pnref=friends.search"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-Alissa"><span class="fa fa-info"></span></a>
                       <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
                     </div>
                   </div>
                   <div class="team-address">
-                    <p>ALISSA AUTSCHBACH</p>
+                    <p>ALISSA SKYFALL</p>
                   </div>
                 </li>
                 <li>
                   <div class="team-item team-img-william wow fadeInUp">
                     <div class="team-info">
-                      <a target="_blank" href="https://www.facebook.com/sam.taylor.5815?fref=ts"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="#"><span class="fa fa-facebook"></span></a>
                       <a target="_blank" href="#" data-toggle="modal" data-target="#Modal-William"><span class="fa fa-info"></span></a>
                       <a target="_blank" href="#"><span class="fa fa-linkedin"></span></a>
                     </div>
@@ -832,73 +836,73 @@ If we feel like your script would benefit from our development programme then we
   
 
   
-  
   <!-- Start Contact section -->
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="contact-left wow fadeInLeft">
-            <h2 class="tittle">CONTACT <span>US</span></h2>
-              <span class="tittle-line"></span>
-            <address class="single-address">
-              <h4>Postal address:</h4>
-              <p>sample address</p>
-            </address>
-             <address class="single-address">
-              <h4>Headquarters:</h4>
-              <p>Sample address</p>
-            </address>
-             <address class="single-address">
-              <h4>Phone</h4>
-              <p>Phone Number: Sample</p>
-              <p>Fax Number: Sample</p>
-            </address>
-             <address class="single-address">
-              <h4>E-Mail</h4>
-              <p>Support: Support@example.com</p>
-              <p>Sales: sales@example.com</p>
-            </address>
-          </div>
-        </div>
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <div class="contact-right wow fadeInRight">
-            <h2 class="tittle">SEND US A <span>MESSAGE</span></h2> 
-              <span class="tittle-line"></span>
-            <form action="" class="contact-form">
-              <div class="form-group">                
-                <input type="text" class="form-control" placeholder="Name">
+          <div class="title-area">
+                <h2 class="tittle">CONTACT <span>US</span></h2>
+                <span class="tittle-line"></span>
+            <p>Feel free to get in contact with is through any of the platforms below</a></p>
+                <br>
+            <br>
               </div>
-              <div class="form-group">                
-                <input type="email" class="form-control" placeholder="Enter Email">
-              </div>              
-              <div class="form-group">
-                <textarea class="form-control"></textarea>
-              </div>
-              <button type="submit" data-text="SUBMIT" class="button button-default"><span>SUBMIT</span></button>
-            </form>
-          </div>
-        </div>
+      <div class="row">
+        <div class="row row-0-gutter">
+                    <!-- about module -->
+					<div class="col-md-3 col-1-gutter mz-about-email text-center">
+						<div class="mz-module-about">
+							<div class="footer-social">
+                                <a class="mail" href="mailto:doppelgangersubmissions@gmail.com"><span class="fa fa-envelope"></span></a>
+                            </div>
+                            <h3>Email Us</h3></a>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 col-1-gutter mz-about-facebook text-center">
+						<div class="mz-module-about">
+                            <div class="footer-social">
+                                <a class="facebook" href="https://www.facebook.com/DoppelgangerProductions/?fref=ts"><span class="fa fa-facebook"></span></a>
+                            </div>
+							<h3>FaceBook</h3>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 col-1-gutter mz-about-twitter text-center">
+						<div class="mz-module-about">
+                            <div class="footer-social">
+                                <a class="twitter" href="https://twitter.com/DoppelgangerPro"><span class="fa fa-twitter"></span></a>
+                            </div>
+							<h3>Twitter</h3>
+						</div>
+					</div>
+					<!-- end about module -->
+					<!-- about module -->
+					<div class="col-md-3 col-1-gutter mz-about-linkedin text-center">
+						<div class="mz-module-about">
+                            <div class="footer-social">
+                                <a class="youtube" href="https://www.youtube.com/channel/UCDTkmxusYf4KAopU0gnIwWw"><span class="fa fa-youtube"></span></a>
+                            </div>
+							<h3>YouTube</h3>
+						</div>
+					</div>
+					<!-- end about module --> 
+				</div>
       </div>
     </div>
   </section>
   <!-- End Contact section -->
-  
-
-  <!-- Start Footer -->    
+          
+          <!-- Start Footer -->    
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="footer-top-area">             
-              <div class="footer-social">
-                <a class="facebook" href="#"><span class="fa fa-facebook"></span></a>
-                <a class="twitter" href="#"><span class="fa fa-twitter"></span></a>
-                <a class="google-plus" href="#"><span class="fa fa-google-plus"></span></a>
-                <a class="youtube" href="#"><span class="fa fa-youtube"></span></a>
-                <a class="linkedin" href="#"><span class="fa fa-linkedin"></span></a>
-              </div>
+              <p>Designed by <a href="http://hjager.com/hjager.com/"><span>hjager.com</span></a></p>
             </div>
           </div>
         </div>
@@ -927,8 +931,8 @@ If we feel like your script would benefit from our development programme then we
 						<h4 class="modal-title" id="Modal-label-1">SHOT AT DAWN</h4>
 					</div>
 					<div class="modal-body">
-						<video autoplay loop id="video-background">
-                          <source src="/doppleganger/assets/videos/DoppelgangerProductionsGroup2.mp4" type="video/mp4">
+						<video autoplay loop id="video-background" muted>
+                          <source src="assets/videos/DoppelgangerProductionsGroup2.mp4" type="video/mp4">
                         </video> 
 						<div class="modal-works"><span>DIRECTED BY KIRSTIE DAVIS</span><span>WRITTEN BY JOHN FOSTER</span></div>
 						<p>After a sell-out performance of John Foster’s gripping courtroom drama, Shot at Dawn, atmospherically staged in Bournemouth Town Hall’s Council Chambers, Doppelganger Productions is launching a Dorset wide tour of the performance in 2016.</p>
@@ -946,13 +950,58 @@ If we feel like your script would benefit from our development programme then we
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                              <img src="assets/images/shotatdawn8.jpg" alt="img01">
+                              <img src="assets/images/sad" alt="img01">
+                                <div class="carousel-caption">
+                                SHOT AT DAWN performance at Poole Guildhall
+                              </div>
                             </div>
                             <div class="item">
-                              <img src="assets/images/shotatdawn8.jpg" alt="img01">
+                              <img src="assets/images/sad2" alt="img01">
+                                <div class="carousel-caption">
+                                SHOT AT DAWN performance at Poole Guildhall
+                              </div>
                             </div>
                             <div class="item">
-                              <img src="assets/images/shotatdawn8.jpg" alt="img01">
+                              <img src="assets/images/sad3" alt="img01">
+                                <div class="carousel-caption">
+                                SHOT AT DAWN performance at Poole Guildhall
+                              </div>
+                            </div>
+                              <div class="item">
+                              <img src="assets/images/sad4" alt="img01">
+                                <div class="carousel-caption">
+                                SHOT AT DAWN performance at Poole Guildhall
+                              </div>
+                            </div>
+                              <div class="item">
+                              <img src="assets/images/sad5" alt="img01">
+                                <div class="carousel-caption">
+                                SHOT AT DAWN performance at Poole Guildhall
+                              </div>
+                            </div>
+                              <div class="item">
+                              <img src="assets/images/sad6" alt="img01">
+                                <div class="carousel-caption">
+                                SHOT AT DAWN performance at Poole Guildhall
+                              </div>
+                            </div>
+                              <div class="item">
+                              <img src="assets/images/sad7" alt="img01">
+                                <div class="carousel-caption">
+                                SHOT AT DAWN performance at Poole Guildhall
+                              </div>
+                            </div>
+                              <div class="item">
+                              <img src="assets/images/sad8" alt="img01">
+                                <div class="carousel-caption">
+                                SHOT AT DAWN performance at Poole Guildhall
+                              </div>
+                            </div>
+                              <div class="item">
+                              <img src="assets/images/sad9" alt="img01">
+                                <div class="carousel-caption">
+                                SHOT AT DAWN performance at Poole Guildhall
+                              </div>
                             </div>
                           </div>
 
@@ -971,6 +1020,40 @@ If we feel like your script would benefit from our development programme then we
                         <p>John Foster spent time studying the original transcripts from the trials, which were until recently restricted from public access. Now for the first time this material is available, and combined with first-hand eyewitness letters, diaries and accounts, the story reveals how these two heroes were suffering from what we now know as Post Traumatic Stress Disorder, yet were condemned to death for their perceived disloyalty.</p>
                         <p>The strength and originality of this new production has been acknowledged with support from national funding through the Arts Council Grants for the Arts, Heritage Lottery, The Big Lottery Fund, West Dorset District Council, Arts University Bournemouth and Poole Borough Council.</p>
                         <p>With 8 performances in 4 stunning locations, audiences can expect a truly unique piece of theatre with a chance to learn more by attending the programme of talks and Q & A’s. Plus a chance to come along to one of the 4 afternoon Tea Dances, to help build up the Living Memories project of Dorset during the great war.</p>
+                        
+                        <!-- Start of carousel -->
+                        <div id="carousel-example-generic0" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                          </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <img src="assets/images/shotatdawn1.jpg" alt="img01">
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/shotatdawn8.jpg" alt="img01">
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/shotatdawn2.jpg" alt="img01">
+                            </div>
+                          </div>
+
+                          <!-- Controls -->
+                          <a class="left carousel-control" href="#carousel-example-generic0" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example-generic0" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                        <!-- End of carousel -->
 
                         <div class="modal-works"><span>IN PARTNERSHIP WITH</span></div>
 
@@ -979,6 +1062,17 @@ If we feel like your script would benefit from our development programme then we
 					</div>
                     
 					<div class="modal-footer">
+                        <!-- Share Buttons -->
+                        <ul class="share-buttons">
+                          <li><span class="fa fa-share-alt"></span></a></li>
+                          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions" title="Share on Facebook" target="_blank"><img src="assets/images/Facebook.png"></a></li>
+                          <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&text=Doppleganger%20Productions:%20http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Tweet"><img src="assets/images/Twitter.png"></a></li>
+                          <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on Google+"><img src="assets/images/Google+.png"></a></li>
+                          <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions&s=" target="_blank" title="Post to Tumblr"><img src="assets/images/Tumblr.png"></a></li>
+                          <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&description=" target="_blank" title="Pin it"><img src="assets/images/Pinterest.png"></a></li>
+                          <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&title=Doppleganger%20Productions&summary=&source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on LinkedIn"><img src="assets/images/LinkedIn.png"></a></li>
+                        </ul>
+                        <!-- Share Buttons End -->
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
@@ -994,11 +1088,10 @@ If we feel like your script would benefit from our development programme then we
 						<h4 class="modal-title" id="Modal-label-1">HAP</h4>
 					</div>
 					<div class="modal-body">
-						<img src="assets/images/HAP%20poster.png" alt="img" style="
-    width: 100%;">
+						<img src="assets/images/HAP%20poster.png" alt="img" style="width: 100%;">
 						<div class="modal-works"><span>DIRECTED BY CHARMAINE K PARKIN</span><span>WRITTEN BY JOHN FOSTER</span></div>
-						<p>A Play about Happiness.</p>
-
+						<h3>A Play about Happiness.</h3>
+                        <span class="tittle-line-modal"></span>
                         <p>‘I just want to be miserable like everyone else!’</p>
 
                         <p>A vivacious young woman called Hap – nickname for happy – goes to the doctor claiming that there is something wrong with her: she is too happy! Hap always feels so full of joy and wellbeing – and she doesn’t like it. The doctor she visits is a manic depressive.</p>
@@ -1012,6 +1105,17 @@ If we feel like your script would benefit from our development programme then we
                         </p>
 					</div>
 					<div class="modal-footer">
+                        <!-- Share Buttons -->
+                        <ul class="share-buttons">
+                            <li><span class="fa fa-share-alt"></span></a></li>
+                          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions" title="Share on Facebook" target="_blank"><img src="assets/images/Facebook.png"></a></li>
+                          <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&text=Doppleganger%20Productions:%20http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Tweet"><img src="assets/images/Twitter.png"></a></li>
+                          <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on Google+"><img src="assets/images/Google+.png"></a></li>
+                          <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions&s=" target="_blank" title="Post to Tumblr"><img src="assets/images/Tumblr.png"></a></li>
+                          <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&description=" target="_blank" title="Pin it"><img src="assets/images/Pinterest.png"></a></li>
+                          <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&title=Doppleganger%20Productions&summary=&source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on LinkedIn"><img src="assets/images/LinkedIn.png"></a></li>
+                        </ul>
+                        <!-- Share Buttons End -->
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
@@ -1032,6 +1136,17 @@ If we feel like your script would benefit from our development programme then we
 						<p>Space for text about the work and images</p>
 					</div>
 					<div class="modal-footer">
+                        <!-- Share Buttons -->
+                        <ul class="share-buttons">
+                            <li><span class="fa fa-share-alt"></span></a></li>
+                          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions" title="Share on Facebook" target="_blank"><img src="assets/images/Facebook.png"></a></li>
+                          <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&text=Doppleganger%20Productions:%20http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Tweet"><img src="assets/images/Twitter.png"></a></li>
+                          <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on Google+"><img src="assets/images/Google+.png"></a></li>
+                          <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions&s=" target="_blank" title="Post to Tumblr"><img src="assets/images/Tumblr.png"></a></li>
+                          <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&description=" target="_blank" title="Pin it"><img src="assets/images/Pinterest.png"></a></li>
+                          <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&title=Doppleganger%20Productions&summary=&source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on LinkedIn"><img src="assets/images/LinkedIn.png"></a></li>
+                        </ul>
+                        <!-- Share Buttons End -->
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
@@ -1044,14 +1159,28 @@ If we feel like your script would benefit from our development programme then we
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-1">Work 4</h4>
+						<h4 class="modal-title" id="Modal-label-1">DOPPLEGANGER LIVE</h4>
 					</div>
 					<div class="modal-body">
-						<iframe width="100%" height="360" src="https://www.youtube.com/embed/eDOdcw36-N8" frameborder="0" allowfullscreen></iframe>
-						<div class="modal-works"><span>Title</span></div>
-						<p>Space for text about the work and images</p>
+						<iframe width="100%" height="360" src="https://www.youtube.com/embed/UUOK-lMHep4" frameborder="0" allowfullscreen></iframe>
+						<div class="modal-works"><span>Directed by Brad Gyori</span><span>WRITTEN BY JOHN FOSTER</span></div>
+                        <div class="modal-works"><span>Performed by Hannah Bang Bendz</span></div>
+						<h3>FIVE GO KILLING</h3>
+                        <span class="tittle-line-modal"></span>
+                        <p>The first in a series of short dramas from Doppelganger Productions was streamed live online on Tuesday 15th March 2016 at 7pm.</p>
 					</div>
 					<div class="modal-footer">
+                        <!-- Share Buttons -->
+                        <ul class="share-buttons">
+                            <li><span class="fa fa-share-alt"></span></a></li>
+                          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions" title="Share on Facebook" target="_blank"><img src="assets/images/Facebook.png"></a></li>
+                          <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&text=Doppleganger%20Productions:%20http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Tweet"><img src="assets/images/Twitter.png"></a></li>
+                          <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on Google+"><img src="assets/images/Google+.png"></a></li>
+                          <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions&s=" target="_blank" title="Post to Tumblr"><img src="assets/images/Tumblr.png"></a></li>
+                          <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&description=" target="_blank" title="Pin it"><img src="assets/images/Pinterest.png"></a></li>
+                          <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&title=Doppleganger%20Productions&summary=&source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on LinkedIn"><img src="assets/images/LinkedIn.png"></a></li>
+                        </ul>
+                        <!-- Share Buttons End -->
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
@@ -1064,14 +1193,54 @@ If we feel like your script would benefit from our development programme then we
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-1">Work 5</h4>
+						<h4 class="modal-title" id="Modal-label-1">THE RAMPANT BULL AND THE PATHETIC PANDA</h4>
 					</div>
 					<div class="modal-body">
-						<iframe width="100%" height="360" src="https://https://www.youtube.com/embed/eDOdcw36-N8" frameborder="0" allowfullscreen></iframe>
-						<div class="modal-works"><span>Title</span></div>
-						<p>Space for text about the work and images</p>
+						<img src="assets/images/rambant%20bull1.jpg" alt="img" style="width: 100%;">
+						<div class="modal-works"><span>Directed by Nicole Hosking</span><span>WRITTEN BY VIN Kaluza</span></div>
+                        <div class="modal-works"><span>Produced by Lauren Harvey</span></div>
+						<h3>REVIEWS</h3>
+                        <span class="tittle-line-modal"></span>
+
+                        <p>THE NOT SO PATHETIC – MORE OF A GIANT – PANDA: A REVIEW BY JANE SKELLET</p>
+
+                        <p>Well, this was the first of the ‘Firsts’ for the Doppelgangers.</p>
+
+                        <p>For a few years now, they have been meeting every month on a Saturday afternoon, to help nurture and encourage new writers with their scripts and stories.</p>
+
+                        <p>I well remember – just over a year ago – when Vin Kaluza introduced us to ‘something he was working on’ – and how he was experimenting with writing a whole play for just one character. He had actor Steve Rollins with him, ready and prepared to render a reading of the first section, opening with the memorable malfunctioning toilet – a symbol for the malfunctioning life of his would-be hero, Bracey.</p>
+
+                        <p>So it was with high anticipation that I joined the full-house of Doppleganger supporters in Chaplin’s  Bar in Boscombe on Saturday afternoon, to see how Vin’s idea had grown into a full piece. And what a full piece this is! If Vin had reservations about one character sustaining a full-length drama, then Steve gave us a tour-de-force performance, animating a cleverly crafted script, which  uses all the storyteller’s techniques to have us believe that there are at least another half dozen characters popping in and out of the patchwork of anecdotal scenes that take us on Bracey’s hellish attempts to break from a life of crime – and grime.</p>
+
+                        <p>Presented as a rehearsed reading, the quirky little theatre space in the Cellar Bar with its jazzy murals leant just the right atmosphere of intimacy, as we were drawn into Bracey’s cage-like life of  violence and domestic turmoil; and the technique of screwing up the pages of script as they were  spent, and watching them pile up around the stage, was a clever way of incorporating the physical  script into the action, whilst also symbolising the gradual destruction and waste of Bracey’s life.</p>
+
+                        <p>Director, Nicola Hosking and producer, Laura Harvey have worked some magic here to bring this all together in such a polished presentation that maintained the tension and suspense throughout the afternoon with such limited resources.</p>
+
+                        <p>And it’s also a tribute to John Foster’s hard work in setting up the Doppelganger Dialogues network  that encourages new writers in developing their work; and to Nick Taylor, who is now the main co-ordinator, looking forward to developing a further series of ‘Firsts’ – as other new writers will have opportunities to see their work presented for an audience.</p>
+
+                        <p>One thing is for certain – the art of good storytelling is in good hands at Doppelganger.</p>
+
+                        <h3>INFO</h3>
+                        <span class="tittle-line-modal"></span>
+
+                        <p>A WORKING PERFORMANCE OF A PLAY IN PRODUCTION.</p>
+
+                        <p>PART OF THE BOSCOMBE ARTS FESTIVAL. PRESENTED BY DOPPELGANGER FIRSTS.</p>
+
+                        <p>Don’t worry.  You’re about to meet a man who’s just come out of prison for acts of extreme violence, but he’s calmed down now.  The anger management counselling has worked.  He’s a changed man.  He’ll be able to cope with the problems of going straight.  His lowlife old mates and criminal connections won’t drag him down, won’t bring the old bad habits back to life.  He’ll impress the family court with his sobriety and clean living and be able to restore relations with his children … Maybe.</p>
 					</div>
 					<div class="modal-footer">
+                        <!-- Share Buttons -->
+                        <ul class="share-buttons">
+                            <li><span class="fa fa-share-alt"></span></a></li>
+                          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions" title="Share on Facebook" target="_blank"><img src="assets/images/Facebook.png"></a></li>
+                          <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&text=Doppleganger%20Productions:%20http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Tweet"><img src="assets/images/Twitter.png"></a></li>
+                          <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on Google+"><img src="assets/images/Google+.png"></a></li>
+                          <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions&s=" target="_blank" title="Post to Tumblr"><img src="assets/images/Tumblr.png"></a></li>
+                          <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&description=" target="_blank" title="Pin it"><img src="assets/images/Pinterest.png"></a></li>
+                          <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&title=Doppleganger%20Productions&summary=&source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on LinkedIn"><img src="assets/images/LinkedIn.png"></a></li>
+                        </ul>
+                        <!-- Share Buttons End -->
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
@@ -1085,14 +1254,81 @@ If we feel like your script would benefit from our development programme then we
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-1">Work 6</h4>
+						<h4 class="modal-title" id="Modal-label-1">THE WEEVIL IN THE BISCUIT</h4>
 					</div>
 					<div class="modal-body">
-						<iframe width="100%" height="360" src="https://https://www.youtube.com/embed/eDOdcw36-N8" frameborder="0" allowfullscreen></iframe>
-						<div class="modal-works"><span>Title</span></div>
-						<p>Space for text about the work and images</p>
+                        <iframe width="100%" height="360" src="https://www.youtube.com/embed/uT00tAJ0JQM" frameborder="0" allowfullscreen></iframe>
+						<div class="modal-works"><span>Directed by Nicole Hosking</span><span>WRITTEN BY VIN Kaluza</span></div>
+                        <img src="assets/images/artscouncil.jpg" alt="img" style="width: 80px; padding-left: 20px">
+						<p>Supported using public funding by arts council england – see more at: WWW.ARTSCOUNCIL.ORG.UK.</p>
+                        <p>The weevil in the biscuit is a 70-minute play performed straight through (no interval) followed by an after show q&a with the writer, director, cast and audience.</p>
+                        <p>Check out these vlogs from our designers Marie Austin and Maria-Helena Farah. Want to know exactly what goes in to creating a performance? Follow this blog by Doppelganger Girl Lauren Stevens, our production intern.</p>
+                        <h3>ABOUT</h3>
+                        <span class="tittle-line-modal"></span>
+                        <p>Settling in Bournemouth with Fanny, his whirlwind American wife with whom he enjoyed a tempestuous relationship, Stevenson sought to stabilise his chronic state of health in climes milder than his beloved Edinburgh. Writing The Strange Case of Doctor Jekyll and Mr Hyde proved to be as dramatic and psychotic as the tale itself.</p>
+                        
+                        <!-- Start of carousel -->
+                        <div id="carousel-example-2" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                          </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <img src="assets/images/weevil1.jpg" alt="img01">
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/weevil2.jpg" alt="img01">
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/weevil3.jpg" alt="img01">
+                            </div>
+                          </div>
+
+                          <!-- Controls -->
+                          <a class="left carousel-control" href="#carousel-example-2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example-2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                        <!-- End of carousel -->
+                        
+                        <p>The play dramatises the loving yet combative relationship between Stevenson and Fanny, with Stevenson almost wholly dependent on her for his physical well-being and emotional stability. Yet the famous author of Treasure Island took to heart Fanny’s critique of the first draft of his new work and this conflict is at the centre of the play, a two-hander between Stevenson and Fanny with the audience cast in the role of a Bournemouth literary group visiting Skerryvore.</p>
+                        <p>Bedridden, inspired by a nightmare, Stevenson feverishly wrote the novella in three days, working without pause, only to destroy the first version. Over the next ten weeks, much of it spent in bed, pages scattered across the counterpane, the almost bankrupt Stevenson compulsively wrote and rewrote until his masterpiece was complete. During this febrile period of creativity, Stevenson was continually haunted by his darkside, the Edwards Hyde within him, his self-destructive impulses continually threatening to undermine the respectable front of his Bournemouth lifestyle.</p>
+                        <p>Stevenson was often too ill to leave the house or even his bed. He nevertheless wrote with superhuman energy, likening the creative demon inside him to that ‘pallid brute’ Edward Hyde. Stevenson’s uneasy coexistence with upright Bournemouth society was like being ‘a weevil in a biscuit.’</p>
+                        
+                        <h3>REVIEWS</h3>
+                        <div class="modal-works">
+                            <span><a href="http://adamdickson.co.uk/blog/2015/07/the-weevil-in-the-biscuit/">Review #1</a></span>
+                            <span><a href="https://doppelgangertheatre.com/2015/07/12/the-weevil-in-the-biscuit-review-by-brad-gyori/">Review #2</a></span>
+                            <span><a href="http://playwatch.weebly.com/recent-reviews.html">Review #3</a></span>
+                            <span><a href="https://doppelgangertheatre.com/2015/07/14/the-weevil-in-the-biscuit-review-by-nicola-hosking/">Review #4</a></span>
+                            <span><a href="https://doppelgangertheatre.com/2015/07/13/mr-stevenson-in-bournemouth-the-weevil-in-the-biscuit"/>Review #5</a></span>
+                        <br>
+                        <br>
+                            <span><a href="http://www.dancingledge.com/words/reviews/theatre/the-weevil-in-the-biscuit.html"/>Review #6</a></span></div>
+                       
 					</div>
 					<div class="modal-footer">
+                        <!-- Share Buttons -->
+                        <ul class="share-buttons">
+                            <li><span class="fa fa-share-alt"></span></a></li>
+                          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions" title="Share on Facebook" target="_blank"><img src="assets/images/Facebook.png"></a></li>
+                          <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&text=Doppleganger%20Productions:%20http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Tweet"><img src="assets/images/Twitter.png"></a></li>
+                          <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on Google+"><img src="assets/images/Google+.png"></a></li>
+                          <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions&s=" target="_blank" title="Post to Tumblr"><img src="assets/images/Tumblr.png"></a></li>
+                          <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&description=" target="_blank" title="Pin it"><img src="assets/images/Pinterest.png"></a></li>
+                          <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&title=Doppleganger%20Productions&summary=&source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on LinkedIn"><img src="assets/images/LinkedIn.png"></a></li>
+                        </ul>
+                        <!-- Share Buttons End -->
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
@@ -1105,14 +1341,75 @@ If we feel like your script would benefit from our development programme then we
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-1">Work 7</h4>
+						<h4 class="modal-title" id="Modal-label-1">DOPPLEGANGER NEEDS YOU</h4>
 					</div>
 					<div class="modal-body">
-						<iframe width="100%" height="360" src="https://https://www.youtube.com/embed/eDOdcw36-N84" frameborder="0" allowfullscreen></iframe>
-						<div class="modal-works"><span>Title</span></div>
-						<p>Space for text about the work and images</p>
+						<img src="assets/images/fundraiser-poster1.jpg" alt="img" style="width: 100%;">
+                        <h3>THANK YOU</h3>
+                        <span class="tittle-line-modal"></span>
+                        <p>An enormous THANK YOU to everyone who took part in our fundraiser at Chaplin’s Cellar Bar, Boscombe, on 24th November for an evening of drama, music, drinks and more. We <p>raised money to develop new writing and theatre in Bournemouth and beyond!</p>
+
+                        <p>Mervyn Stutter – Our compere extraordinaire kicked the evening off with a few songs</p>
+
+                        <p>Five Go Killing – An extract of a play by John Foster, followed by Young Critics discussion</p>
+
+                        <p>Anna and the Uke</p>
+
+                        <p>Jamie – The Wandering Musician</p>
+
+                        <p>Little Death – An extract of a play by Luke Welch on the life and times of George Orwell</p>
+
+                        <p>Raffle – cracking prizes were won!</p>
+
+                        <p>Mervyn saw us off in to the night…s</p>
+                        
+                        <!-- Start of carousel -->
+                        <div id="carousel-example-3" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                          </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <img src="assets/images/fundraiser1.jpg" alt="img01">
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/fundraiser2.jpg" alt="img01">
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/fundraiser3.jpg" alt="img01">
+                            </div>
+                          </div>
+
+                          <!-- Controls -->
+                          <a class="left carousel-control" href="#carousel-example-3" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example-3" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                        <!-- End of carousel -->
+                        
 					</div>
 					<div class="modal-footer">
+                        <!-- Share Buttons -->
+                        <ul class="share-buttons">
+                            <li><span class="fa fa-share-alt"></span></a></li>
+                          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions" title="Share on Facebook" target="_blank"><img src="assets/images/Facebook.png"></a></li>
+                          <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&text=Doppleganger%20Productions:%20http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Tweet"><img src="assets/images/Twitter.png"></a></li>
+                          <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on Google+"><img src="assets/images/Google+.png"></a></li>
+                          <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions&s=" target="_blank" title="Post to Tumblr"><img src="assets/images/Tumblr.png"></a></li>
+                          <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&description=" target="_blank" title="Pin it"><img src="assets/images/Pinterest.png"></a></li>
+                          <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&title=Doppleganger%20Productions&summary=&source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on LinkedIn"><img src="assets/images/LinkedIn.png"></a></li>
+                        </ul>
+                        <!-- Share Buttons End -->
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
@@ -1125,14 +1422,54 @@ If we feel like your script would benefit from our development programme then we
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-1">Work 8</h4>
+						<h4 class="modal-title" id="Modal-label-1">DORIAN GRAY</h4>
 					</div>
 					<div class="modal-body">
-						<iframe width="100%" height="360" src="https://https://www.youtube.com/embed/eDOdcw36-N8" frameborder="0" allowfullscreen></iframe>
-						<div class="modal-works"><span>Title</span></div>
-						<p>Space for text about the work and images</p>
+						<img src="assets/images/dorian%20gray%20poster.jpg" alt="img" style="width: 100%;">
+						<div class="modal-works"><span>Directed by Charmiane K Parkin</span><span>WRITTEN By John Foster</span></div>
+                        <div class="modal-works"><span>Produced by Nick Taylor</span></div>
+                        <h3>ABOUT</h3>
+                        <span class="tittle-line-modal"></span>
+						<p>A contemporary retelling of Oscar Wilde’s Faustian tale. The beautiful Dory Gray, professional photographer of crime, war and celebrity, has made a pact with the Devil. A stunningly beautiful young man, Dorian Gray, has a photograph taken of himself by the woman he loves, Basel Hallward, locking his prepossessing good looks in the digital image for all time. Falling under the malign influence of the amoral Henri Wotton, Dorian is drawn into her hedonistic lifestyle and becomes her lover. 
+                            <p>Dorian strikes a Faustian pact with the Devil and acquires eternal youth. Immersing himself in a secret life of debauchery and crime, Dorian discovers a wantonly violent darkside to his personality. He gradually builds an international reputation as an award-winning news and celebrity photographer, covering such topics as famine, major disasters and crime, taking a particular interest in a serial murderer known as ‘The Rain Killer.’</p>
+                        <p>The ravages of corruption and depravity are never reflected in Dorian’s enduringly handsome face. Only the photograph Basel once took of him reflects his dissolute soul.</p>
+                        
+                        <h3>PREVIEW</h3>
+                        <span class="tittle-line-modal"></span>
+                        <p>An intense and punchy rethinking of one of Oscar Wilde’s most controversial and yet fascinating tales: The Picture of Dorian Grey.</p>
+                        <p>Written by John Foster, directed by Charmaine K. Parkin and produced by Nick Taylor, the play comes to life on the stage where time and space condense in a fiery performance.  A modern London gives birth to its characters and, almost standing as a silent narrator, it tells the story of Dorian Grey, whose beauty evokes that of an angel.  Dorian decides to devote his life to debauchery and pleasure and trades his soul in exchange of eternal youth.</p>
+                        <p>He grows an increasing interest in capturing with his camera the last scents of life in murdered bodies of prostitutes, attracted by the story of a mysterious serial killer known as the “rain killer.”  But what the camera really captures is hidden in a picture of him taken by Basel, the woman he loves.</p>
+                        <p>Brilliantly written, as the narrative unfolds it reveals and explores the duality of the characters, which slowly pervades the story, strongly echoing the atmosphere of this century. This is probably the challenge of the work: presenting to a modern disillusioned audience a story which strips their most intimate and hidden fears and desires.</p>
+                        <p>Dorian is torn apart, divided between his true love for Basel and Henri’s sombre magnitude which in the end prevails and pulls out his darkest impulses. Hints of surrealism blend with a powerful almost painful realism.</p>
+                        <p>The play explores themes of happiness and pleasure in a world where morality has vanished under a “painted veil” of vanity.</p>
+                        <p>Stefania Allegrini</p>
+                        
+                        <h3>REVIEW</h3>
+                        <span class="tittle-line-modal"></span>
+                        <p>THEATRE REVIEW – THE PICTURE OF DORIAN GRAY – SIMON JAY – THEATRE AND PERFORMANCE GUIDE AND GURU</p>
+                        <p>AWARDED FIVE STARS * * * * * ‘VIOLENT, ABUSIVE, DUPLICITOUS – THE REAL MR GRAY’</p>
+                        <p>Oscar Wilde’s Novel about art, eternal youth and debauchery has become a supernatural cautionary tale for the twentieth and twenty-first century. Many writer’s since Wilde have taken the eponymous Dorian and had their wicked way with him, from Will Self’s very gay, eighties AID’s parable to Alan Moore’s comic book superhero. Even if you haven’t read Wilde’s book, you’re aware of or, or even refer to someone as ‘having a painting in the attic’.</p>
+                        <p>John Foster takes the ‘attic’ and makes it a representation of the public consciousness in this contemporary… I wouldn’t call it a ‘version’ of Gray, more a mash-up, an inspiration, as we go light-years from the supernatural of Conan-Doyle’s Victorian London to the gritty, ugly media-sated world of 2015. He doesn’t write easy plays, they’re hard and ruthless, like cobalt; his dialogue sounds half 50’s pulp detective novel, half T.S Eliot’s The Wasteland; it is a totally unique voice. A voice pre-occupied by murder, sex, psychology and art. He doesn’t write to simply entertain, he writes to assault the audience with a barrage of imagery, words and ideas; there is so much to unpack in his plays, you certainly aren’t short-changed if you engage and open your mind.</p>
+                        <p>We are introduced to Dorian Gray, a charismatic, young and provocative beauty, gesticulating wildly and talking in abstract poetics about the nature of his world, of murder and his career in photography. Alessandro Babalola, a lanky powerhouse of an actor, who engages you with every word, plays Gray brilliantly, no mean feat considering the dense and abstract dialogue you’re bombarded with.</p>
+                        <p>We soon meet Basel Hallward and Henri Wotton rewritten as women as opposite and the two sides of Dorian himself. Basel is whimsical and mercurial but with a dash of the disturbed locked deep within, she falls for Dorian on a beach they both walk. You immediately feel safe with Basel played by Anna Newcome, an actor who embodies a role so deftly and with such originality it’s breathtaking and rewarding to watch. In this burgeoning romance we get a wafer-thin reminder of Wilde’s plot. Gray is photographed by Basel in the mortuary where she works, and the musings to never grow old and stay as the picture rears its metaphorical head.</p>
+                        <p>Enter Henri Wotton, bipolar femme fatale and devilish vamp sophisticate in gorgeous high-heels; this character is so much fun yet so freakish I couldn’t help smiling from ear-to-ear every time Amelia Gardham came on stage. She was perhaps the most Wildean character in the play, concerned with maxims and philosophy; she got under the other characters skin and the audiences too! Gardham had us in the palm of her hand, she knew exactly what she was doing, and she has a natural talent destined for the great dark ladies of Shakespeare.</p>
+                        <p>Soon Wotton takes Gray down a path of decadence and debauchery; all the while the news story he’s always first to photograph, the murdered prostitutes of ‘The Rain Killer’ is always in the background.</p>
+                        <p>By the second act, the poetics takes back-stage for a more visceral study in action and inaction. We are immersed in daring bank-raids, war-scenes and violent murders. Parkin’s direction is particularly excellent in these sequences showing her skill in creating an oppressive and frightening mood with little dressing or bombastic effects.</p>
+                        <p>This production of Dorian Gray feels like theatre of a bygone age, an age where theatre was a wide and dangerous sea, where you had no idea what you were going to see. It is an experience every serious theatregoer should be part of.</p>
+                        <p>Review by Simon Jay</p>
 					</div>
 					<div class="modal-footer">
+                        <!-- Share Buttons -->
+                        <ul class="share-buttons">
+                            <li><span class="fa fa-share-alt"></span></a></li>
+                          <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions" title="Share on Facebook" target="_blank"><img src="assets/images/Facebook.png"></a></li>
+                          <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&text=Doppleganger%20Productions:%20http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Tweet"><img src="assets/images/Twitter.png"></a></li>
+                          <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on Google+"><img src="assets/images/Google+.png"></a></li>
+                          <li><a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&t=Doppleganger%20Productions&s=" target="_blank" title="Post to Tumblr"><img src="assets/images/Tumblr.png"></a></li>
+                          <li><a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&description=" target="_blank" title="Pin it"><img src="assets/images/Pinterest.png"></a></li>
+                          <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio&title=Doppleganger%20Productions&summary=&source=http%3A%2F%2Fhjager.com%2Fdoppleganger%2Findex.html%23portfolio" target="_blank" title="Share on LinkedIn"><img src="assets/images/LinkedIn.png"></a></li>
+                        </ul>
+                        <!-- Share Buttons End -->
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>

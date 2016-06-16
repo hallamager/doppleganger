@@ -4285,7 +4285,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
     margin-right: 0;
-    margin-left: 0;
   }
 }
 .navbar-static-top {
@@ -6498,7 +6497,7 @@ button.close {
   .carousel-caption {
     right: 20%;
     left: 20%;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
   .carousel-indicators {
     bottom: 20px;

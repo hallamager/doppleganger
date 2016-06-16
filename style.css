@@ -55,7 +55,16 @@ a{
 	text-decoration: none;
 	color: #2f2f2f;  
 }
+
+a1{ 
+	text-decoration: none;
+	color: #fff;  
+}
 a:focus{
+	outline: none;
+	text-decoration: none;
+}
+a1:focus{
 	outline: none;
 	text-decoration: none;
 }
@@ -232,9 +241,7 @@ img{
 	width: 100%;
 	text-align: center;
 }
-.header-btn-area a{
-	margin: 0px 15px;
-}
+
 .knowmore-btn{
 	border: 2px solid #935347;
 	border-radius: 50%;
@@ -319,7 +326,7 @@ img{
 }
 #navbar {
 	float: left;
-	width: 83%;
+	width: 80%;
 }
 .main-nav {
 	display: inline-block;
@@ -502,6 +509,14 @@ img{
 	height: 1px;
 	margin-bottom: 16px;
 	width: 100%;
+}
+
+.tittle-line-modal {
+	background-color: #898989;
+	display: inline-block;
+	height: 1px;
+	width: 90px;
+    margin-left: 20px;
 }
 
 .welcome-content{
@@ -780,11 +795,10 @@ img{
 .team-item {
 	width: 100%;
 	height: 100%;
-	border-radius: 50%;
 	position: relative;
 	cursor: default;
 	box-shadow: 
-		inset 0 0 0 16px rgba(255,255,255,0.6),
+		inset 0 0 0 5px rgba(255,255,255,0.6),
 		0 1px 2px rgba(0,0,0,0.1);
 		
 	-webkit-transition: all 0.4s ease-in-out;
@@ -794,55 +808,73 @@ img{
 	transition: all 0.4s ease-in-out;
 }
 
+
 .team-img-1 { 
 	background-image: url(assets/images/john.png);
+    height: 100%;
+    width: 100%;
 }
 
 .team-img-2 { 
 	background-image: url(assets/images/ted.png);
+    height: 100%;
+    width: 100%;
 }
 
 .team-img-3 { 
 	background-image: url(assets/images/richard-emmott.jpeg);
+    height: 100%;
+    width: 100%;
 }
 .team-img-4 { 
 	background-image: url(assets/images/charmaine.png);
+    height: 100%;
+    width: 100%;
 }
 
 .team-img-5 { 
 	background-image: url(assets/images/simon.png);
+    height: 100%;
+    width: 100%;
 }
 
 .team-img-6 { 
 	background-image: url(assets/images/roger.png);
+    height: 100%;
+    width: 100%;
 }
 
 .team-img-stefy { 
 	background-image: url(assets/images/stefy1.jpg);
+    height: 100%;
     width: 100%;
 }
 
 .team-img-alex { 
 	background-image: url(assets/images/alex1.jpg);
+    height: 100%;
     width: 100%;
 }
 
 .team-img-sarah { 
 	background-image: url(assets/images/sarah1.jpg);
+    height: 100%;
     width: 100%;
 }
 .team-img-stefano { 
 	background-image: url(assets/images/stefano.jpg);
-    width: 100%;
-}
+    height: 100%;
+    width: 100%;}
 
 .team-img-alissa { 
 	background-image: url(assets/images/allisa1.jpg);
+    height: 100%;
     width: 100%;
 }
 
 .team-img-william { 
 	background-image: url(assets/images/william1.jpg);
+    height: 100%;
     width: 100%;
 }
 
@@ -853,7 +885,6 @@ img{
 	width: inherit;
 	height: inherit;
 	padding: 110px 0;
-	border-radius: 50%;
 	opacity: 0;
 	
 	-webkit-transition: all 0.4s ease-in-out;
@@ -1712,7 +1743,7 @@ img{
 /*--------------------*/
 
 #footer{
-	background-color: #242424;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	margin-top: -6px;
@@ -1728,6 +1759,10 @@ img{
 	float: left;
 	text-align: center;
 	width: 100%;
+    color: #935347;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-decoration: none;
 }
 .footer-logo{
 	display: inline-block;
@@ -1755,6 +1790,13 @@ img{
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 }
+
+.footer-social a.mail:hover{
+	background-color: #935347;
+	border-color: #935347;
+	color: #fff;
+}
+
 .footer-social a.facebook:hover{
 	background-color: #3b5998;
 	border-color: #3b5998;
@@ -2313,9 +2355,11 @@ img{
 	.team-img-3,
 	.team-img-4 { 
 	  background-position: center center;
+      width: 100%;
+      height: 100%;
 	}
 	.team-info {
-		padding: 12px 0px;  
+		padding: 80px 0px;  
 	}
 	.team-info p {
 		margin: 0 32px; 
@@ -2604,9 +2648,11 @@ img{
 	.team-img-1, .team-img-2, .team-img-3, .team-img-4 {
 	  background-position: center center;
 	  background-size: 100% auto;
+      width: 100%;
+      height: 100%;    
 	}
 	.team-info {
-	  padding: 30px 18px;
+	  padding: 100px 18px;
 	}
 	.team-info p {
 	  font-size: 15px;
@@ -3265,7 +3311,16 @@ img{
 }
 
 .modal-body p {
-	margin: 30px 20px;
+	margin: 15px 20px;
+	color: #2D2D2D;
+    text-align: justify;
+}
+
+.modal-body h3 {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 0px;
 	color: #2D2D2D;
     text-align: justify;
 }
@@ -3283,6 +3338,11 @@ font-size: 11px;
 	background-color: #935347;
     margin-right: 15px;
     padding: 5px 10px;
+}
+
+.modal-works a {
+	background-color: #935347;
+    color: #fff;
 }
 
 .btn-default {
@@ -3405,4 +3465,51 @@ video {
   display: inline-block;
   vertical-align: baseline;
   width: 100%;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+  float: left;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+.row-0-gutter {
+    margin-left: -13px;
+    margin-right: -13px;
+}
+
+.mz-module-about {
+	padding: 20px;
+}
+
+.mz-about-default {
+    background-color: #F6F6F6;
+}
+
+.mz-about-facebook {
+    background-color: #F6F6F6;
+}
+
+.mz-about-linkedin {
+    background-color: #F6F6F6;
+}
+
+.mz-about-twitter {
+    background-color: #F6F6F6;
+}
+
+.mz-about-pinterest {
+    background-color: #F6F6F6;
+}
+
+.mz-about-phone {
+    background-color: #F6F6F6;
+}
+
+.mz-about-email {
+    background-color: #F6F6F6;
 }
