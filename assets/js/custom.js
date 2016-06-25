@@ -333,3 +333,85 @@ $('.nav.navbar-nav > li').on('click', function(e) {
     $('.nav.navbar-nav > li').removeClass('active');
     $(this).addClass('active');
 }); 
+
+
+/* ----------------------------------------------------------- */
+	/*  13. Modal share links
+	/* ----------------------------------------------------------- */ 
+
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#Modal-shot-at-dawn') != -1) {
+    $('#Modal-shot-at-dawn').modal('show');
+  }
+
+});
+
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#Modal-Hap') != -1) {
+    $('#Modal-Hap').modal('show');
+  }
+
+});
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#Modal-sadyc-review') != -1) {
+    $('#Modal-sadyc-review').modal('show');
+  }
+
+});
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#Modal-Work4') != -1) {
+    $('#Modal-Work4').modal('show');
+  }
+
+});
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#Modal-Work5') != -1) {
+    $('#Modal-Work5').modal('show');
+  }
+
+});
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#Modal-Work6') != -1) {
+    $('#Modal-Work6').modal('show');
+  }
+
+});
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#Modal-Work7') != -1) {
+    $('#Modal-Work7').modal('show');
+  }
+
+});
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#Modal-Work8') != -1) {
+    $('#Modal-Work8').modal('show');
+  }
+
+});
+
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#Modal-blog7') != -1) {
+    $('#Modal-blog7').modal('show');
+  }
+
+});
+
+
+

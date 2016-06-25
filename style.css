@@ -245,7 +245,7 @@ img{
 .knowmore-btn{
 	border: 2px solid #935347;
 	border-radius: 50%;
-	color: #935347;	
+	color: #fff;	
 	font-size: 20px;	
 	font-weight: bold;
 	text-transform: uppercase;
@@ -255,6 +255,7 @@ img{
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
+    background-color: #935347;
 }
 .download-btn{
 	border: 2px solid #fff;
@@ -810,7 +811,7 @@ img{
 
 
 .team-img-1 { 
-	background-image: url(assets/images/john.png);
+	background-image: url(assets/images/john1.jpg);
     height: 100%;
     width: 100%;
 }
