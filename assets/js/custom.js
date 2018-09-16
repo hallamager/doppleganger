@@ -48,7 +48,7 @@ jQuery(function($){
 
 
 	jQuery(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 721) {
+    if ($(window).scrollTop() > 0) {
         $('.main-navbar').addClass('navbar-fixed-top');
         $('.logo').addClass('logo-compressed');
         $('.main-nav li a').addClass('less-padding');
